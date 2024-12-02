@@ -3,7 +3,7 @@ const env=require('dotenv');
 env.config();
 const connectDB=async()=>{
     try{
-        console.log(process.env.MONGO_URL)
+        
         await mongoose.connect(process.env.MONGO_URL,
             
         );
