@@ -73,8 +73,8 @@ router.post("/signup", async (req, res) => {
 router.post("/signin",async(req,res)=>{
 
     const {email,password}=req.body;
-    console.log(email);
-    console.log(password);
+    // console.log(email);
+    // console.log(password);
     const validatedData=signinSchema.parse(req.body);
     if(validatedData){
         try {
@@ -94,7 +94,7 @@ router.post("/signin",async(req,res)=>{
 
             //sign the token
             const token=jwt.sign({id:user._id,email:email},JWT_SECRET);
-            console.log(token);
+            // console.log(token);
             res.json({token:token});
             
             

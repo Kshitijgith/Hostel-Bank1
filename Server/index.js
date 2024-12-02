@@ -32,8 +32,8 @@ async function startserver() {
 
     // Start the server
     const port = process.env.PORT || 5000;
-    app.listen(port, process.env.LOCAl_IP, () => {
-      console.log(`Hostel Bank Server running on http://${process.env.LOCAl_IP}:${port}`);
+    app.listen(port, () => {
+      console.log(`Hostel Bank Server running on http://localhost:${port}`);
     });
     
   } catch (error) {
