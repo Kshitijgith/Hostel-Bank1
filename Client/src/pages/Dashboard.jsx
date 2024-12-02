@@ -5,7 +5,7 @@ import axios from "axios";
 import Navigator from "./Navigator";
 
 const Dashboard = () => {
-  const backendUrl = "http://192.168.0.101:5000"; // Define backend URL
+  const backendUrl = "https://hostel-bank.onrender.com"; // Define backend URL
   const navigate = useNavigate();
   const [userData, setUserData] = useState({});
 

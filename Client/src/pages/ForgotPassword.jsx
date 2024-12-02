@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'
 
 const ForgotPassword = () => {
 
-    const backendUrl = "http://192.168.0.101:5000";
+    const backendUrl = "https://hostel-bank.onrender.com";
     const [email, setEmail] = useState("");
     const [sent,setSent]=useState(false)
     const navigate=useNavigate()

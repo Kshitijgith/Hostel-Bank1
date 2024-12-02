@@ -10,7 +10,7 @@ const Group = () => {
 const {groupid} = useParams();
 const navigate = useNavigate();
 const [userData, setUserData] = useState({});
-const backendUrl = "http://192.168.0.101:5000"; 
+const backendUrl = "https://hostel-bank.onrender.com"; 
 
 useEffect(() => {
   // Call the fetchUserData function

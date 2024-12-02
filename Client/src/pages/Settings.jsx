@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 
 const Settings = () => {
-  const backendUrl = "http://192.168.0.101:5000";
+  const backendUrl = "https://hostel-bank.onrender.com";
 
   const [oldPassword, setOldPassword] = useState("");
   const [newPassword, setNewPassword] = useState("");

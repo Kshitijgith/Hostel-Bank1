@@ -3,7 +3,7 @@ import React, { useState,useEffect } from "react";
 import axios from "axios";
 
 const CreateGroup = () => {
-  const backend= "http://192.168.0.101:5000"
+  const backend= "https://hostel-bank.onrender.com"
   
   const [groupName, setGroupName] = useState("");
   const [groupCode, setGroupCode] = useState("");

@@ -2,7 +2,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 
 const Notification = () => {
-  const baseurl = "http://192.168.0.101:5000";
+  const baseurl = "https://hostel-bank.onrender.com";
   const [notifications, setNotifications] = useState([]);
 
   useEffect(() => {
